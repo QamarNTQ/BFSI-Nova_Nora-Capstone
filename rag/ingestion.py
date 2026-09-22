@@ -39,7 +39,7 @@ def create_chunks(documents):
 
 
 def get_embedding_model():
-    return HuggingFaceEmbeddings(model_name="BAAI/bge-small-en-v1.5")
+    return HuggingFaceEmbeddings(model_name="BAAI/bge-large-en-v1.5")
 
 
 def build_vector_store(chunks, embedding_model):
